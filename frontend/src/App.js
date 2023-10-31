@@ -80,7 +80,7 @@ function App() {
       initialViewState={viewport}
       style={{ width: "100vw", height: "100vh" }}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken='pk.eyJ1IjoiYXJ1bnBhdGhpdmFkYSIsImEiOiJjbG5tb2JrZ24wMHJtMmpudDk3czd3MXc2In0.8CSx5e2uJYTFlw9c00joEA'
+      mapboxAccessToken='pk.eyJ1IjoiYXJ1bnBhdGhpdmFkYSIsImEiOiJjbG9lNGdyYWEwZmhnMmtvMmVyZG42Mzk2In0.UnG7J-zIwMqVjwmBX9NH7w'
       onDblClick={handleDClick}
       transitionDuration="200"
     >
