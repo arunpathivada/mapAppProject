@@ -14,7 +14,7 @@ export default function Register({setshowLogin,mystorage,setCurrUser}) {
       password:passwordRef.current.value
     }
     try{
-      const res= await axios.post("http://localhost:8000/api/users/login",user);
+      const res= await axios.post("https://web-server2-0cgj.onrender.com//api/users/login",user);
       mystorage.setItem("user",res.data.username)
       setCurrUser(res.data.username)
       setshowLogin(false);

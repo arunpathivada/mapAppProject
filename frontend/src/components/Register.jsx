@@ -17,7 +17,7 @@ export default function Register({setshowRegister}) {
       password:passwordRef.current.value
     }
     try{
-      await axios.post("http://localhost:8000/api/users/register",pin);
+      await axios.post("https://web-server2-0cgj.onrender.com/api/users/register",pin);
       setSuccess(true);
       setFailure(false);
     }catch(err){
